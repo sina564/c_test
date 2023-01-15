@@ -24,7 +24,7 @@ int main() {
 
     // Loop Test
     int i;
-    for (i=1; i < 11; ++i) {                                        //i gets a value, loop runs as long i is under 11, i+1
+    for (i=1; i < 11; ++i) {                                        //i gets a value, loop runs as long i is under 11, i+1.
         printf("%d ", i);
     }
 
