@@ -20,10 +20,6 @@ int main(void) {
     printf("In march, you will be %i years old.\n", ageNextYear);  
     printf("Your average grade is %f.\n", gpa);                      //%f for float
     printf("Your last grade was a %c.\n", grade);                    //%c for char
-    
-
-    bool e = true; 
-    printf("Did you study for your test? Answer: %d\n", e);          //%d for boolean
 
     return 0;
 }
