@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdbool.h>
 
-int main(void) {
+int main() {
 
     // Hello World print
     printf("I like Pizza!\n");
@@ -16,10 +15,18 @@ int main(void) {
     char grade='B';
     char name[] = "Sina";                                            //array of chars for a string
 
-    printf("%s, you are %i Years old.\n", name, age);                //%s for string (char array) + %i or %d for int 
+    printf("%s, you are %i Years old.\n", name, age);                //%s for string (char array) / %i or %d for int 
     printf("In march, you will be %i years old.\n", ageNextYear);  
-    printf("Your average grade is %f.\n", gpa);                      //%f for float
+    printf("\n");
+    printf("Your average grade is %.2f.\n", gpa);                    //%f for float / .2 for 2 decimals
     printf("Your last grade was a %c.\n", grade);                    //%c for char
+    printf("\n");
+
+    // Loop Test
+    int i;
+    for (i=1; i < 11; ++i) {
+        printf("%d ", i);
+    }
 
     return 0;
 }
