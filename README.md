@@ -1,3 +1,4 @@
 # c_test
 This is a test repo with test code for learning C.
-Nothing more to see here.
+This is the "idea" branch, I test things here.
+Nothing more to see.
